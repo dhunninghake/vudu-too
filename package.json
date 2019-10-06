@@ -1,12 +1,12 @@
 {
   "name": "vudu-too",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A composable approach to writing styles in JavaScript",
   "main": "dist/vudu.js",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "rollup -c",
-    "start": "webpack-dev-server --content-base dev/",
+    "start": "webpack-dev-server",
     "test": "ava"
   },
   "author": "Daniel Hunninghake <d@dhunninghake.com> (http://dhunninghake.com/)",

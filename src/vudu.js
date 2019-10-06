@@ -63,8 +63,8 @@ const v = (styles, customClass) => {
       .substring(2, 15)}`;
 
   parse(styles, classname);
-  cache[_key] = classname;
-  return classname;
+  cache[_key] = classname.substring(1);
+  return classname.substring(1);
 };
 
 const vudu = x => {
