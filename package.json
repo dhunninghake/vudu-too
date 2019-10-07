@@ -1,6 +1,6 @@
 {
   "name": "vudu-too",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A composable approach to writing styles in JavaScript",
   "main": "dist/vudu.js",
   "scripts": {
